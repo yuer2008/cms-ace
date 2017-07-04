@@ -1,0 +1,8 @@
+breadcrumbs
+
+page-content
+	page-header
+		h1 //title
+	row
+		col-xs-12
+			row //嵌套row

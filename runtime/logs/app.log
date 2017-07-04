@@ -1,0 +1,2238 @@
+2017-04-25 14:31:48 [127.0.0.1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: D:\xampp\htdocs\bsw-log\views\layouts\empty.php' in D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\View.php:226
+Stack trace:
+#0 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(app\controllers\SiteController))
+#1 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(372): yii\base\Controller->renderContent('<!DOCTYPE html>...')
+#2 D:\xampp\htdocs\bsw-log\controllers\SiteController.php(150): yii\base\Controller->render('login', Array)
+#3 [internal function]: app\controllers\SiteController->actionLogin()
+#4 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('login', Array)
+#7 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/login', Array)
+#8 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\xampp\htdocs\bsw-log\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2017-04-25 14:31:48 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.2.293394642.1488360647'
+    '_csrf' => 'bf8b07686cbc752e3fbca648b49ee163cc7397635cd2f17256d138e1b3040b38a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"eCbA7OzocTv-xM6l0xfk2MWzUhzUME30\";}'
+    'UM_distinctid' => '15ba3396781af-05c19d1ad004a9-4e47052e-1fa400-15ba33967827f1'
+    'CNZZDATA155540' => 'cnzz_eid=1976120013-1493090567-&ntime=1493097321'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'log.bsw.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.2.293394642.1488360647; _csrf=bf8b07686cbc752e3fbca648b49ee163cc7397635cd2f17256d138e1b3040b38a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22eCbA7OzocTv-xM6l0xfk2MWzUhzUME30%22%3B%7D; UM_distinctid=15ba3396781af-05c19d1ad004a9-4e47052e-1fa400-15ba33967827f1; CNZZDATA155540=cnzz_eid%3D1976120013-1493090567-%26ntime%3D1493097321'
+    'PATH' => 'd:\\Ruby23\\bin;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\xampp\\php;D:\\Program Files\\VisualSVN Server\\bin;D:\\xampp\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;D:\\Python27;D:\\Program Files\\nodejs\\;D:\\Program Files (x86)\\nodejs\\;D:\\Go\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Git\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files\\EsafeNet\\Cobra DocGuard Client;C:\\Users\\Administrator.PC-20150311ZSLK\\AppData\\Roaming\\npm;d:\\Program Files\\Docker Toolbox'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8 Server at log.bsw.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8'
+    'SERVER_NAME' => 'log.bsw.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/bsw-log/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/bsw-log/web'
+    'SERVER_ADMIN' => 'log.bsw.cn'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/bsw-log/web/index.php'
+    'REMOTE_PORT' => '31624'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/login'
+    'REQUEST_URI' => '/index.php?r=site/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1493101908.885
+    'REQUEST_TIME' => 1493101908
+]
+2017-04-25 14:32:53 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'Html' not found' in D:\xampp\htdocs\bsw-log\views\layouts\empty.php:7
+Stack trace:
+#0 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#1 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->renderFile()
+#2 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(372): yii\base\Controller->renderContent()
+#3 D:\xampp\htdocs\bsw-log\controllers\SiteController.php(150): yii\base\Controller->render()
+#4 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\InlineAction.php(55): app\controllers\SiteController->actionLogin()
+#5 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#6 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#7 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#8 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#9 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#10 D:\xampp\htdocs\bsw-log\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2017-04-25 14:32:53 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.2.293394642.1488360647'
+    '_csrf' => 'bf8b07686cbc752e3fbca648b49ee163cc7397635cd2f17256d138e1b3040b38a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"eCbA7OzocTv-xM6l0xfk2MWzUhzUME30\";}'
+    'UM_distinctid' => '15ba3396781af-05c19d1ad004a9-4e47052e-1fa400-15ba33967827f1'
+    'CNZZDATA155540' => 'cnzz_eid=1976120013-1493090567-&ntime=1493097321'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'log.bsw.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.2.293394642.1488360647; _csrf=bf8b07686cbc752e3fbca648b49ee163cc7397635cd2f17256d138e1b3040b38a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22eCbA7OzocTv-xM6l0xfk2MWzUhzUME30%22%3B%7D; UM_distinctid=15ba3396781af-05c19d1ad004a9-4e47052e-1fa400-15ba33967827f1; CNZZDATA155540=cnzz_eid%3D1976120013-1493090567-%26ntime%3D1493097321'
+    'PATH' => 'd:\\Ruby23\\bin;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\xampp\\php;D:\\Program Files\\VisualSVN Server\\bin;D:\\xampp\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;D:\\Python27;D:\\Program Files\\nodejs\\;D:\\Program Files (x86)\\nodejs\\;D:\\Go\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Git\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files\\EsafeNet\\Cobra DocGuard Client;C:\\Users\\Administrator.PC-20150311ZSLK\\AppData\\Roaming\\npm;d:\\Program Files\\Docker Toolbox'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8 Server at log.bsw.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8'
+    'SERVER_NAME' => 'log.bsw.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/bsw-log/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/bsw-log/web'
+    'SERVER_ADMIN' => 'log.bsw.cn'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/bsw-log/web/index.php'
+    'REMOTE_PORT' => '31742'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/login'
+    'REQUEST_URI' => '/index.php?r=site/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1493101973.395
+    'REQUEST_TIME' => 1493101973
+]
+2017-05-18 14:24:57 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'Html' not found' in D:\xampp\htdocs\bsw-log\views\layouts\admin.php:10
+Stack trace:
+#0 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#1 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->renderFile()
+#2 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(372): yii\base\Controller->renderContent()
+#3 D:\xampp\htdocs\bsw-log\controllers\SiteController.php(86): yii\base\Controller->render()
+#4 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\InlineAction.php(55): app\controllers\SiteController->actionIndex()
+#5 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#6 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#7 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#8 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#9 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#10 D:\xampp\htdocs\bsw-log\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2017-05-18 14:24:57 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_ga' => 'GA1.2.293394642.1488360647'
+    '_csrf' => 'bf8b07686cbc752e3fbca648b49ee163cc7397635cd2f17256d138e1b3040b38a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"eCbA7OzocTv-xM6l0xfk2MWzUhzUME30\";}'
+    'UM_distinctid' => '15ba3396781af-05c19d1ad004a9-4e47052e-1fa400-15ba33967827f1'
+    'CNZZDATA155540' => 'cnzz_eid=1976120013-1493090567-&ntime=1495085298'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'log.bsw.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.2.293394642.1488360647; _csrf=bf8b07686cbc752e3fbca648b49ee163cc7397635cd2f17256d138e1b3040b38a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22eCbA7OzocTv-xM6l0xfk2MWzUhzUME30%22%3B%7D; UM_distinctid=15ba3396781af-05c19d1ad004a9-4e47052e-1fa400-15ba33967827f1; CNZZDATA155540=cnzz_eid%3D1976120013-1493090567-%26ntime%3D1495085298'
+    'PATH' => 'd:\\Ruby23\\bin;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\xampp\\php;D:\\Program Files\\VisualSVN Server\\bin;D:\\xampp\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;D:\\Python27;D:\\Program Files\\nodejs\\;D:\\Program Files (x86)\\nodejs\\;D:\\Go\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Git\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files\\EsafeNet\\Cobra DocGuard Client;C:\\Users\\Administrator.PC-20150311ZSLK\\AppData\\Roaming\\npm;d:\\Program Files\\Docker Toolbox'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8 Server at log.bsw.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8'
+    'SERVER_NAME' => 'log.bsw.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/bsw-log/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/bsw-log/web'
+    'SERVER_ADMIN' => 'log.bsw.cn'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/bsw-log/web/index.php'
+    'REMOTE_PORT' => '61186'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1495088697.381
+    'REQUEST_TIME' => 1495088697
+]
+2017-05-18 17:34:18 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'include(common/nav.html): failed to open stream: No such file or directory' in D:\xampp\htdocs\bsw-log\views\layouts\admin.php:659
+Stack trace:
+#0 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#1 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->renderFile()
+#2 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(372): yii\base\Controller->renderContent()
+#3 D:\xampp\htdocs\bsw-log\controllers\SiteController.php(86): yii\base\Controller->render()
+#4 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\InlineAction.php(55): app\controllers\SiteController->actionIndex()
+#5 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#6 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#7 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#8 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#9 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#10 D:\xampp\htdocs\bsw-log\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2017-05-18 17:34:18 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_ga' => 'GA1.2.293394642.1488360647'
+    '_csrf' => 'bf8b07686cbc752e3fbca648b49ee163cc7397635cd2f17256d138e1b3040b38a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"eCbA7OzocTv-xM6l0xfk2MWzUhzUME30\";}'
+    'UM_distinctid' => '15ba3396781af-05c19d1ad004a9-4e47052e-1fa400-15ba33967827f1'
+    'CNZZDATA155540' => 'cnzz_eid=1976120013-1493090567-&ntime=1495085298'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'log.bsw.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.2.293394642.1488360647; _csrf=bf8b07686cbc752e3fbca648b49ee163cc7397635cd2f17256d138e1b3040b38a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22eCbA7OzocTv-xM6l0xfk2MWzUhzUME30%22%3B%7D; UM_distinctid=15ba3396781af-05c19d1ad004a9-4e47052e-1fa400-15ba33967827f1; CNZZDATA155540=cnzz_eid%3D1976120013-1493090567-%26ntime%3D1495085298'
+    'PATH' => 'd:\\Ruby23\\bin;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\xampp\\php;D:\\Program Files\\VisualSVN Server\\bin;D:\\xampp\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;D:\\Python27;D:\\Program Files\\nodejs\\;D:\\Program Files (x86)\\nodejs\\;D:\\Go\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Git\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files\\EsafeNet\\Cobra DocGuard Client;C:\\Users\\Administrator.PC-20150311ZSLK\\AppData\\Roaming\\npm;d:\\Program Files\\Docker Toolbox'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8 Server at log.bsw.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8'
+    'SERVER_NAME' => 'log.bsw.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/bsw-log/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/bsw-log/web'
+    'SERVER_ADMIN' => 'log.bsw.cn'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/bsw-log/web/index.php'
+    'REMOTE_PORT' => '8806'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1495100057.998
+    'REQUEST_TIME' => 1495100057
+]
+2017-05-18 17:34:45 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'include(common/nav.html): failed to open stream: No such file or directory' in D:\xampp\htdocs\bsw-log\views\layouts\admin.php:659
+Stack trace:
+#0 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#1 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->renderFile()
+#2 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(372): yii\base\Controller->renderContent()
+#3 D:\xampp\htdocs\bsw-log\controllers\SiteController.php(86): yii\base\Controller->render()
+#4 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\InlineAction.php(55): app\controllers\SiteController->actionIndex()
+#5 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#6 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#7 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#8 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#9 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#10 D:\xampp\htdocs\bsw-log\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2017-05-18 17:34:45 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_ga' => 'GA1.2.293394642.1488360647'
+    '_csrf' => 'bf8b07686cbc752e3fbca648b49ee163cc7397635cd2f17256d138e1b3040b38a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"eCbA7OzocTv-xM6l0xfk2MWzUhzUME30\";}'
+    'UM_distinctid' => '15ba3396781af-05c19d1ad004a9-4e47052e-1fa400-15ba33967827f1'
+    'CNZZDATA155540' => 'cnzz_eid=1976120013-1493090567-&ntime=1495085298'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'log.bsw.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.2.293394642.1488360647; _csrf=bf8b07686cbc752e3fbca648b49ee163cc7397635cd2f17256d138e1b3040b38a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22eCbA7OzocTv-xM6l0xfk2MWzUhzUME30%22%3B%7D; UM_distinctid=15ba3396781af-05c19d1ad004a9-4e47052e-1fa400-15ba33967827f1; CNZZDATA155540=cnzz_eid%3D1976120013-1493090567-%26ntime%3D1495085298'
+    'PATH' => 'd:\\Ruby23\\bin;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\xampp\\php;D:\\Program Files\\VisualSVN Server\\bin;D:\\xampp\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;D:\\Python27;D:\\Program Files\\nodejs\\;D:\\Program Files (x86)\\nodejs\\;D:\\Go\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Git\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files\\EsafeNet\\Cobra DocGuard Client;C:\\Users\\Administrator.PC-20150311ZSLK\\AppData\\Roaming\\npm;d:\\Program Files\\Docker Toolbox'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8 Server at log.bsw.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8'
+    'SERVER_NAME' => 'log.bsw.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/bsw-log/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/bsw-log/web'
+    'SERVER_ADMIN' => 'log.bsw.cn'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/bsw-log/web/index.php'
+    'REMOTE_PORT' => '9251'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1495100085.202
+    'REQUEST_TIME' => 1495100085
+]
+2017-05-18 17:34:48 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'include(common/nav.html): failed to open stream: No such file or directory' in D:\xampp\htdocs\bsw-log\views\layouts\admin.php:659
+Stack trace:
+#0 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#1 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->renderFile()
+#2 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(372): yii\base\Controller->renderContent()
+#3 D:\xampp\htdocs\bsw-log\controllers\SiteController.php(86): yii\base\Controller->render()
+#4 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\InlineAction.php(55): app\controllers\SiteController->actionIndex()
+#5 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#6 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#7 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#8 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#9 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#10 D:\xampp\htdocs\bsw-log\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2017-05-18 17:34:47 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_ga' => 'GA1.2.293394642.1488360647'
+    '_csrf' => 'bf8b07686cbc752e3fbca648b49ee163cc7397635cd2f17256d138e1b3040b38a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"eCbA7OzocTv-xM6l0xfk2MWzUhzUME30\";}'
+    'UM_distinctid' => '15ba3396781af-05c19d1ad004a9-4e47052e-1fa400-15ba33967827f1'
+    'CNZZDATA155540' => 'cnzz_eid=1976120013-1493090567-&ntime=1495085298'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'log.bsw.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.2.293394642.1488360647; _csrf=bf8b07686cbc752e3fbca648b49ee163cc7397635cd2f17256d138e1b3040b38a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22eCbA7OzocTv-xM6l0xfk2MWzUhzUME30%22%3B%7D; UM_distinctid=15ba3396781af-05c19d1ad004a9-4e47052e-1fa400-15ba33967827f1; CNZZDATA155540=cnzz_eid%3D1976120013-1493090567-%26ntime%3D1495085298'
+    'PATH' => 'd:\\Ruby23\\bin;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\xampp\\php;D:\\Program Files\\VisualSVN Server\\bin;D:\\xampp\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;D:\\Python27;D:\\Program Files\\nodejs\\;D:\\Program Files (x86)\\nodejs\\;D:\\Go\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Git\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files\\EsafeNet\\Cobra DocGuard Client;C:\\Users\\Administrator.PC-20150311ZSLK\\AppData\\Roaming\\npm;d:\\Program Files\\Docker Toolbox'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8 Server at log.bsw.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8'
+    'SERVER_NAME' => 'log.bsw.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/bsw-log/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/bsw-log/web'
+    'SERVER_ADMIN' => 'log.bsw.cn'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/bsw-log/web/index.php'
+    'REMOTE_PORT' => '9318'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1495100087.962
+    'REQUEST_TIME' => 1495100087
+]
+2017-05-18 17:36:13 [127.0.0.1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: D:\xampp\htdocs\bsw-log\views\layouts\common/nav.html' in D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\View.php:226
+Stack trace:
+#0 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, NULL)
+#1 D:\xampp\htdocs\bsw-log\views\layouts\admin.php(659): yii\base\View->render('common/nav.html')
+#2 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\View.php(325): require('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('D:\\xampp\\htdocs...', Array)
+#4 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(app\controllers\SiteController))
+#5 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(372): yii\base\Controller->renderContent('<!DOCTYPE html>...')
+#6 D:\xampp\htdocs\bsw-log\controllers\SiteController.php(86): yii\base\Controller->render('index', Array)
+#7 [internal function]: app\controllers\SiteController->actionIndex()
+#8 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#9 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#10 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#11 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('', Array)
+#12 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 D:\xampp\htdocs\bsw-log\web\index.php(12): yii\base\Application->run()
+#14 {main}
+2017-05-18 17:36:13 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_ga' => 'GA1.2.293394642.1488360647'
+    '_csrf' => 'bf8b07686cbc752e3fbca648b49ee163cc7397635cd2f17256d138e1b3040b38a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"eCbA7OzocTv-xM6l0xfk2MWzUhzUME30\";}'
+    'UM_distinctid' => '15ba3396781af-05c19d1ad004a9-4e47052e-1fa400-15ba33967827f1'
+    'CNZZDATA155540' => 'cnzz_eid=1976120013-1493090567-&ntime=1495085298'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'log.bsw.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.2.293394642.1488360647; _csrf=bf8b07686cbc752e3fbca648b49ee163cc7397635cd2f17256d138e1b3040b38a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22eCbA7OzocTv-xM6l0xfk2MWzUhzUME30%22%3B%7D; UM_distinctid=15ba3396781af-05c19d1ad004a9-4e47052e-1fa400-15ba33967827f1; CNZZDATA155540=cnzz_eid%3D1976120013-1493090567-%26ntime%3D1495085298'
+    'PATH' => 'd:\\Ruby23\\bin;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\xampp\\php;D:\\Program Files\\VisualSVN Server\\bin;D:\\xampp\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;D:\\Python27;D:\\Program Files\\nodejs\\;D:\\Program Files (x86)\\nodejs\\;D:\\Go\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Git\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files\\EsafeNet\\Cobra DocGuard Client;C:\\Users\\Administrator.PC-20150311ZSLK\\AppData\\Roaming\\npm;d:\\Program Files\\Docker Toolbox'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8 Server at log.bsw.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8'
+    'SERVER_NAME' => 'log.bsw.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/bsw-log/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/bsw-log/web'
+    'SERVER_ADMIN' => 'log.bsw.cn'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/bsw-log/web/index.php'
+    'REMOTE_PORT' => '11569'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1495100173.531
+    'REQUEST_TIME' => 1495100173
+]
+2017-05-18 17:41:58 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'include(D:\xampp\htdocs\bsw-log\viewscommon/nav.html): failed to open stream: No such file or directory' in D:\xampp\htdocs\bsw-log\views\layouts\admin.php:659
+Stack trace:
+#0 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#1 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->renderFile()
+#2 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(372): yii\base\Controller->renderContent()
+#3 D:\xampp\htdocs\bsw-log\controllers\SiteController.php(86): yii\base\Controller->render()
+#4 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\InlineAction.php(55): app\controllers\SiteController->actionIndex()
+#5 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#6 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#7 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#8 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#9 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#10 D:\xampp\htdocs\bsw-log\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2017-05-18 17:41:57 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_ga' => 'GA1.2.293394642.1488360647'
+    '_csrf' => 'bf8b07686cbc752e3fbca648b49ee163cc7397635cd2f17256d138e1b3040b38a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"eCbA7OzocTv-xM6l0xfk2MWzUhzUME30\";}'
+    'UM_distinctid' => '15ba3396781af-05c19d1ad004a9-4e47052e-1fa400-15ba33967827f1'
+    'CNZZDATA155540' => 'cnzz_eid=1976120013-1493090567-&ntime=1495096098'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'log.bsw.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.2.293394642.1488360647; _csrf=bf8b07686cbc752e3fbca648b49ee163cc7397635cd2f17256d138e1b3040b38a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22eCbA7OzocTv-xM6l0xfk2MWzUhzUME30%22%3B%7D; UM_distinctid=15ba3396781af-05c19d1ad004a9-4e47052e-1fa400-15ba33967827f1; CNZZDATA155540=cnzz_eid%3D1976120013-1493090567-%26ntime%3D1495096098'
+    'PATH' => 'd:\\Ruby23\\bin;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\xampp\\php;D:\\Program Files\\VisualSVN Server\\bin;D:\\xampp\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;D:\\Python27;D:\\Program Files\\nodejs\\;D:\\Program Files (x86)\\nodejs\\;D:\\Go\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Git\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files\\EsafeNet\\Cobra DocGuard Client;C:\\Users\\Administrator.PC-20150311ZSLK\\AppData\\Roaming\\npm;d:\\Program Files\\Docker Toolbox'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8 Server at log.bsw.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8'
+    'SERVER_NAME' => 'log.bsw.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/bsw-log/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/bsw-log/web'
+    'SERVER_ADMIN' => 'log.bsw.cn'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/bsw-log/web/index.php'
+    'REMOTE_PORT' => '18906'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1495100517.946
+    'REQUEST_TIME' => 1495100517
+]
+2017-05-18 17:58:08 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: admin_user' in D:\xampp\htdocs\bsw-log\views\layouts\admin.php:72
+Stack trace:
+#0 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#1 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->renderFile()
+#2 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(372): yii\base\Controller->renderContent()
+#3 D:\xampp\htdocs\bsw-log\controllers\SiteController.php(86): yii\base\Controller->render()
+#4 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\InlineAction.php(55): app\controllers\SiteController->actionIndex()
+#5 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#6 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#7 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#8 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#9 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#10 D:\xampp\htdocs\bsw-log\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2017-05-18 17:58:08 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_ga' => 'GA1.2.293394642.1488360647'
+    '_csrf' => 'bf8b07686cbc752e3fbca648b49ee163cc7397635cd2f17256d138e1b3040b38a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"eCbA7OzocTv-xM6l0xfk2MWzUhzUME30\";}'
+    'UM_distinctid' => '15ba3396781af-05c19d1ad004a9-4e47052e-1fa400-15ba33967827f1'
+    'CNZZDATA155540' => 'cnzz_eid=1976120013-1493090567-&ntime=1495096098'
+    'ace_settings' => '{\"navbar-fixed\":1,\"sidebar-fixed\":1,\"breadcrumbs-fixed\":1,\"main-container-fixed\":-1}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'log.bsw.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.2.293394642.1488360647; _csrf=bf8b07686cbc752e3fbca648b49ee163cc7397635cd2f17256d138e1b3040b38a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22eCbA7OzocTv-xM6l0xfk2MWzUhzUME30%22%3B%7D; UM_distinctid=15ba3396781af-05c19d1ad004a9-4e47052e-1fa400-15ba33967827f1; CNZZDATA155540=cnzz_eid%3D1976120013-1493090567-%26ntime%3D1495096098; ace.settings=%7B%22navbar-fixed%22%3A1%2C%22sidebar-fixed%22%3A1%2C%22breadcrumbs-fixed%22%3A1%2C%22main-container-fixed%22%3A-1%7D'
+    'PATH' => 'd:\\Ruby23\\bin;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\xampp\\php;D:\\Program Files\\VisualSVN Server\\bin;D:\\xampp\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;D:\\Python27;D:\\Program Files\\nodejs\\;D:\\Program Files (x86)\\nodejs\\;D:\\Go\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Git\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files\\EsafeNet\\Cobra DocGuard Client;C:\\Users\\Administrator.PC-20150311ZSLK\\AppData\\Roaming\\npm;d:\\Program Files\\Docker Toolbox'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8 Server at log.bsw.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8'
+    'SERVER_NAME' => 'log.bsw.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/bsw-log/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/bsw-log/web'
+    'SERVER_ADMIN' => 'log.bsw.cn'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/bsw-log/web/index.php'
+    'REMOTE_PORT' => '37775'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1495101488.516
+    'REQUEST_TIME' => 1495101488
+]
+2017-07-03 15:28:21 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'Url' not found' in D:\xampp\htdocs\bsw-log\views\common\nav.html:140
+Stack trace:
+#0 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\View.php(325): ::unknown()
+#1 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#2 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->renderFile()
+#3 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(372): yii\base\Controller->renderContent()
+#4 D:\xampp\htdocs\bsw-log\controllers\SiteController.php(86): yii\base\Controller->render()
+#5 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\InlineAction.php(55): app\controllers\SiteController->actionIndex()
+#6 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#7 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#8 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#9 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#10 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#11 D:\xampp\htdocs\bsw-log\web\index.php(12): yii\base\Application->run()
+#12 {main}
+2017-07-03 15:28:20 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_ga' => 'GA1.2.293394642.1488360647'
+    '_csrf' => 'bf8b07686cbc752e3fbca648b49ee163cc7397635cd2f17256d138e1b3040b38a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"eCbA7OzocTv-xM6l0xfk2MWzUhzUME30\";}'
+    'UM_distinctid' => '15ba3396781af-05c19d1ad004a9-4e47052e-1fa400-15ba33967827f1'
+    'CNZZDATA155540' => 'cnzz_eid=1976120013-1493090567-&ntime=1495096098'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'log.bsw.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.2.293394642.1488360647; _csrf=bf8b07686cbc752e3fbca648b49ee163cc7397635cd2f17256d138e1b3040b38a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22eCbA7OzocTv-xM6l0xfk2MWzUhzUME30%22%3B%7D; UM_distinctid=15ba3396781af-05c19d1ad004a9-4e47052e-1fa400-15ba33967827f1; CNZZDATA155540=cnzz_eid%3D1976120013-1493090567-%26ntime%3D1495096098'
+    'PATH' => 'd:\\Ruby23\\bin;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\xampp\\php;D:\\Program Files\\VisualSVN Server\\bin;D:\\xampp\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;D:\\Python27;D:\\Program Files\\nodejs\\;D:\\Program Files (x86)\\nodejs\\;D:\\Go\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Git\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files\\EsafeNet\\Cobra DocGuard Client;C:\\Users\\Administrator.PC-20150311ZSLK\\AppData\\Roaming\\npm;d:\\Program Files\\Docker Toolbox;D:\\MongoDB\\server\\bin;.'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8 Server at log.bsw.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8'
+    'SERVER_NAME' => 'log.bsw.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/bsw-log/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/bsw-log/web'
+    'SERVER_ADMIN' => 'log.bsw.cn'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/bsw-log/web/index.php'
+    'REMOTE_PORT' => '14403'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499066900.91
+    'REQUEST_TIME' => 1499066900
+]
+2017-07-03 15:29:30 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: mber/index' in D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#1 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('mber/index', Array)
+#2 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\xampp\htdocs\bsw-log\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\bsw-log\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-07-03 15:29:30 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\assets\AppAsset' not found' in D:\xampp\htdocs\bsw-log\views\layouts\main.php:12
+Stack trace:
+#0 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#1 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->renderFile()
+#2 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(372): yii\base\Controller->renderContent()
+#3 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\ErrorAction.php(108): yii\base\Controller->render()
+#4 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Action.php(92): yii\web\ErrorAction->run()
+#5 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Action.php(92): ::call_user_func_array:{D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Action.php:92}()
+#6 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\Action->runWithParams()
+#7 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#8 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\ErrorHandler.php(80): yii\base\Module->runAction()
+#9 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\ErrorHandler.php(101): yii\web\ErrorHandler->renderException()
+#10 {main}
+2017-07-03 15:29:30 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'mber/index'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.2.293394642.1488360647'
+    '_csrf' => 'bf8b07686cbc752e3fbca648b49ee163cc7397635cd2f17256d138e1b3040b38a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"eCbA7OzocTv-xM6l0xfk2MWzUhzUME30\";}'
+    'UM_distinctid' => '15ba3396781af-05c19d1ad004a9-4e47052e-1fa400-15ba33967827f1'
+    'CNZZDATA155540' => 'cnzz_eid=1976120013-1493090567-&ntime=1495096098'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'log.bsw.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://log.bsw.cn/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.2.293394642.1488360647; _csrf=bf8b07686cbc752e3fbca648b49ee163cc7397635cd2f17256d138e1b3040b38a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22eCbA7OzocTv-xM6l0xfk2MWzUhzUME30%22%3B%7D; UM_distinctid=15ba3396781af-05c19d1ad004a9-4e47052e-1fa400-15ba33967827f1; CNZZDATA155540=cnzz_eid%3D1976120013-1493090567-%26ntime%3D1495096098'
+    'PATH' => 'd:\\Ruby23\\bin;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\xampp\\php;D:\\Program Files\\VisualSVN Server\\bin;D:\\xampp\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;D:\\Python27;D:\\Program Files\\nodejs\\;D:\\Program Files (x86)\\nodejs\\;D:\\Go\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Git\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files\\EsafeNet\\Cobra DocGuard Client;C:\\Users\\Administrator.PC-20150311ZSLK\\AppData\\Roaming\\npm;d:\\Program Files\\Docker Toolbox;D:\\MongoDB\\server\\bin;.'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8 Server at log.bsw.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8'
+    'SERVER_NAME' => 'log.bsw.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/bsw-log/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/bsw-log/web'
+    'SERVER_ADMIN' => 'log.bsw.cn'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/bsw-log/web/index.php'
+    'REMOTE_PORT' => '14428'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=mber%2Findex'
+    'REQUEST_URI' => '/index.php?r=mber%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499066970.498
+    'REQUEST_TIME' => 1499066970
+]
+2017-07-03 15:30:01 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '$layout' (T_VARIABLE), expecting function (T_FUNCTION)' in D:\xampp\htdocs\bsw-log\controllers\MberController.php:7
+Stack trace:
+#0 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Module.php(563): ::spl_autoload_call()
+#1 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Module.php(563): ::class_exists()
+#2 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Module.php(521): yii\base\Module->createControllerByID()
+#3 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController()
+#4 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#5 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#6 D:\xampp\htdocs\bsw-log\web\index.php(12): yii\base\Application->run()
+#7 {main}
+2017-07-03 15:30:01 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'mber/index'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.2.293394642.1488360647'
+    '_csrf' => 'bf8b07686cbc752e3fbca648b49ee163cc7397635cd2f17256d138e1b3040b38a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"eCbA7OzocTv-xM6l0xfk2MWzUhzUME30\";}'
+    'UM_distinctid' => '15ba3396781af-05c19d1ad004a9-4e47052e-1fa400-15ba33967827f1'
+    'CNZZDATA155540' => 'cnzz_eid=1976120013-1493090567-&ntime=1495096098'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'log.bsw.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://log.bsw.cn/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.2.293394642.1488360647; _csrf=bf8b07686cbc752e3fbca648b49ee163cc7397635cd2f17256d138e1b3040b38a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22eCbA7OzocTv-xM6l0xfk2MWzUhzUME30%22%3B%7D; UM_distinctid=15ba3396781af-05c19d1ad004a9-4e47052e-1fa400-15ba33967827f1; CNZZDATA155540=cnzz_eid%3D1976120013-1493090567-%26ntime%3D1495096098'
+    'PATH' => 'd:\\Ruby23\\bin;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\xampp\\php;D:\\Program Files\\VisualSVN Server\\bin;D:\\xampp\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;D:\\Python27;D:\\Program Files\\nodejs\\;D:\\Program Files (x86)\\nodejs\\;D:\\Go\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Git\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files\\EsafeNet\\Cobra DocGuard Client;C:\\Users\\Administrator.PC-20150311ZSLK\\AppData\\Roaming\\npm;d:\\Program Files\\Docker Toolbox;D:\\MongoDB\\server\\bin;.'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8 Server at log.bsw.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8'
+    'SERVER_NAME' => 'log.bsw.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/bsw-log/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/bsw-log/web'
+    'SERVER_ADMIN' => 'log.bsw.cn'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/bsw-log/web/index.php'
+    'REMOTE_PORT' => '14460'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=mber%2Findex'
+    'REQUEST_URI' => '/index.php?r=mber%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499067001.149
+    'REQUEST_TIME' => 1499067001
+]
+2017-07-03 15:30:10 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: mber/index' in D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#1 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('mber/index', Array)
+#2 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\xampp\htdocs\bsw-log\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\bsw-log\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-07-03 15:30:10 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\assets\AppAsset' not found' in D:\xampp\htdocs\bsw-log\views\layouts\main.php:12
+Stack trace:
+#0 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#1 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->renderFile()
+#2 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(372): yii\base\Controller->renderContent()
+#3 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\ErrorAction.php(108): yii\base\Controller->render()
+#4 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Action.php(92): yii\web\ErrorAction->run()
+#5 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Action.php(92): ::call_user_func_array:{D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Action.php:92}()
+#6 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\Action->runWithParams()
+#7 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#8 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\ErrorHandler.php(80): yii\base\Module->runAction()
+#9 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\ErrorHandler.php(101): yii\web\ErrorHandler->renderException()
+#10 {main}
+2017-07-03 15:30:10 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'mber/index'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.2.293394642.1488360647'
+    '_csrf' => 'bf8b07686cbc752e3fbca648b49ee163cc7397635cd2f17256d138e1b3040b38a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"eCbA7OzocTv-xM6l0xfk2MWzUhzUME30\";}'
+    'UM_distinctid' => '15ba3396781af-05c19d1ad004a9-4e47052e-1fa400-15ba33967827f1'
+    'CNZZDATA155540' => 'cnzz_eid=1976120013-1493090567-&ntime=1495096098'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'log.bsw.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://log.bsw.cn/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.2.293394642.1488360647; _csrf=bf8b07686cbc752e3fbca648b49ee163cc7397635cd2f17256d138e1b3040b38a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22eCbA7OzocTv-xM6l0xfk2MWzUhzUME30%22%3B%7D; UM_distinctid=15ba3396781af-05c19d1ad004a9-4e47052e-1fa400-15ba33967827f1; CNZZDATA155540=cnzz_eid%3D1976120013-1493090567-%26ntime%3D1495096098'
+    'PATH' => 'd:\\Ruby23\\bin;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\xampp\\php;D:\\Program Files\\VisualSVN Server\\bin;D:\\xampp\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;D:\\Python27;D:\\Program Files\\nodejs\\;D:\\Program Files (x86)\\nodejs\\;D:\\Go\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Git\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files\\EsafeNet\\Cobra DocGuard Client;C:\\Users\\Administrator.PC-20150311ZSLK\\AppData\\Roaming\\npm;d:\\Program Files\\Docker Toolbox;D:\\MongoDB\\server\\bin;.'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8 Server at log.bsw.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8'
+    'SERVER_NAME' => 'log.bsw.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/bsw-log/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/bsw-log/web'
+    'SERVER_ADMIN' => 'log.bsw.cn'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/bsw-log/web/index.php'
+    'REMOTE_PORT' => '14462'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=mber%2Findex'
+    'REQUEST_URI' => '/index.php?r=mber%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499067010.53
+    'REQUEST_TIME' => 1499067010
+]
+2017-07-03 15:31:29 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: mber/index' in D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#1 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('mber/index', Array)
+#2 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\xampp\htdocs\bsw-log\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\bsw-log\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-07-03 15:31:29 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\assets\AppAsset' not found' in D:\xampp\htdocs\bsw-log\views\layouts\main.php:12
+Stack trace:
+#0 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#1 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->renderFile()
+#2 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(372): yii\base\Controller->renderContent()
+#3 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\ErrorAction.php(108): yii\base\Controller->render()
+#4 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Action.php(92): yii\web\ErrorAction->run()
+#5 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Action.php(92): ::call_user_func_array:{D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Action.php:92}()
+#6 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\Action->runWithParams()
+#7 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#8 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\ErrorHandler.php(80): yii\base\Module->runAction()
+#9 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\ErrorHandler.php(101): yii\web\ErrorHandler->renderException()
+#10 {main}
+2017-07-03 15:31:29 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'mber/index'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.2.293394642.1488360647'
+    '_csrf' => 'bf8b07686cbc752e3fbca648b49ee163cc7397635cd2f17256d138e1b3040b38a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"eCbA7OzocTv-xM6l0xfk2MWzUhzUME30\";}'
+    'UM_distinctid' => '15ba3396781af-05c19d1ad004a9-4e47052e-1fa400-15ba33967827f1'
+    'CNZZDATA155540' => 'cnzz_eid=1976120013-1493090567-&ntime=1495096098'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'log.bsw.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://log.bsw.cn/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.2.293394642.1488360647; _csrf=bf8b07686cbc752e3fbca648b49ee163cc7397635cd2f17256d138e1b3040b38a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22eCbA7OzocTv-xM6l0xfk2MWzUhzUME30%22%3B%7D; UM_distinctid=15ba3396781af-05c19d1ad004a9-4e47052e-1fa400-15ba33967827f1; CNZZDATA155540=cnzz_eid%3D1976120013-1493090567-%26ntime%3D1495096098'
+    'PATH' => 'd:\\Ruby23\\bin;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\xampp\\php;D:\\Program Files\\VisualSVN Server\\bin;D:\\xampp\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;D:\\Python27;D:\\Program Files\\nodejs\\;D:\\Program Files (x86)\\nodejs\\;D:\\Go\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Git\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files\\EsafeNet\\Cobra DocGuard Client;C:\\Users\\Administrator.PC-20150311ZSLK\\AppData\\Roaming\\npm;d:\\Program Files\\Docker Toolbox;D:\\MongoDB\\server\\bin;.'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8 Server at log.bsw.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8'
+    'SERVER_NAME' => 'log.bsw.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/bsw-log/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/bsw-log/web'
+    'SERVER_ADMIN' => 'log.bsw.cn'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/bsw-log/web/index.php'
+    'REMOTE_PORT' => '14492'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=mber%2Findex'
+    'REQUEST_URI' => '/index.php?r=mber%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499067089.516
+    'REQUEST_TIME' => 1499067089
+]
+2017-07-03 15:31:47 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: mber/index' in D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#1 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('mber/index', Array)
+#2 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\xampp\htdocs\bsw-log\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\bsw-log\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-07-03 15:31:47 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\assets\AppAsset' not found' in D:\xampp\htdocs\bsw-log\views\layouts\main.php:12
+Stack trace:
+#0 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#1 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->renderFile()
+#2 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(372): yii\base\Controller->renderContent()
+#3 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\ErrorAction.php(108): yii\base\Controller->render()
+#4 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Action.php(92): yii\web\ErrorAction->run()
+#5 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Action.php(92): ::call_user_func_array:{D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Action.php:92}()
+#6 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\Action->runWithParams()
+#7 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#8 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\ErrorHandler.php(80): yii\base\Module->runAction()
+#9 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\ErrorHandler.php(101): yii\web\ErrorHandler->renderException()
+#10 {main}
+2017-07-03 15:31:47 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'mber/index'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.2.293394642.1488360647'
+    '_csrf' => 'bf8b07686cbc752e3fbca648b49ee163cc7397635cd2f17256d138e1b3040b38a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"eCbA7OzocTv-xM6l0xfk2MWzUhzUME30\";}'
+    'UM_distinctid' => '15ba3396781af-05c19d1ad004a9-4e47052e-1fa400-15ba33967827f1'
+    'CNZZDATA155540' => 'cnzz_eid=1976120013-1493090567-&ntime=1495096098'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'log.bsw.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://log.bsw.cn/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.2.293394642.1488360647; _csrf=bf8b07686cbc752e3fbca648b49ee163cc7397635cd2f17256d138e1b3040b38a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22eCbA7OzocTv-xM6l0xfk2MWzUhzUME30%22%3B%7D; UM_distinctid=15ba3396781af-05c19d1ad004a9-4e47052e-1fa400-15ba33967827f1; CNZZDATA155540=cnzz_eid%3D1976120013-1493090567-%26ntime%3D1495096098'
+    'PATH' => 'd:\\Ruby23\\bin;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\xampp\\php;D:\\Program Files\\VisualSVN Server\\bin;D:\\xampp\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;D:\\Python27;D:\\Program Files\\nodejs\\;D:\\Program Files (x86)\\nodejs\\;D:\\Go\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Git\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files\\EsafeNet\\Cobra DocGuard Client;C:\\Users\\Administrator.PC-20150311ZSLK\\AppData\\Roaming\\npm;d:\\Program Files\\Docker Toolbox;D:\\MongoDB\\server\\bin;.'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8 Server at log.bsw.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8'
+    'SERVER_NAME' => 'log.bsw.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/bsw-log/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/bsw-log/web'
+    'SERVER_ADMIN' => 'log.bsw.cn'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/bsw-log/web/index.php'
+    'REMOTE_PORT' => '14502'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=mber%2Findex'
+    'REQUEST_URI' => '/index.php?r=mber%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499067107.881
+    'REQUEST_TIME' => 1499067107
+]
+2017-07-03 15:31:49 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: mber/index' in D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#1 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('mber/index', Array)
+#2 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\xampp\htdocs\bsw-log\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\bsw-log\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-07-03 15:31:49 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\assets\AppAsset' not found' in D:\xampp\htdocs\bsw-log\views\layouts\main.php:12
+Stack trace:
+#0 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#1 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->renderFile()
+#2 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(372): yii\base\Controller->renderContent()
+#3 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\ErrorAction.php(108): yii\base\Controller->render()
+#4 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Action.php(92): yii\web\ErrorAction->run()
+#5 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Action.php(92): ::call_user_func_array:{D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Action.php:92}()
+#6 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\Action->runWithParams()
+#7 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#8 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\ErrorHandler.php(80): yii\base\Module->runAction()
+#9 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\ErrorHandler.php(101): yii\web\ErrorHandler->renderException()
+#10 {main}
+2017-07-03 15:31:49 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'mber/index'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.2.293394642.1488360647'
+    '_csrf' => 'bf8b07686cbc752e3fbca648b49ee163cc7397635cd2f17256d138e1b3040b38a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"eCbA7OzocTv-xM6l0xfk2MWzUhzUME30\";}'
+    'UM_distinctid' => '15ba3396781af-05c19d1ad004a9-4e47052e-1fa400-15ba33967827f1'
+    'CNZZDATA155540' => 'cnzz_eid=1976120013-1493090567-&ntime=1495096098'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'log.bsw.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://log.bsw.cn/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.2.293394642.1488360647; _csrf=bf8b07686cbc752e3fbca648b49ee163cc7397635cd2f17256d138e1b3040b38a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22eCbA7OzocTv-xM6l0xfk2MWzUhzUME30%22%3B%7D; UM_distinctid=15ba3396781af-05c19d1ad004a9-4e47052e-1fa400-15ba33967827f1; CNZZDATA155540=cnzz_eid%3D1976120013-1493090567-%26ntime%3D1495096098'
+    'PATH' => 'd:\\Ruby23\\bin;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\xampp\\php;D:\\Program Files\\VisualSVN Server\\bin;D:\\xampp\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;D:\\Python27;D:\\Program Files\\nodejs\\;D:\\Program Files (x86)\\nodejs\\;D:\\Go\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Git\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files\\EsafeNet\\Cobra DocGuard Client;C:\\Users\\Administrator.PC-20150311ZSLK\\AppData\\Roaming\\npm;d:\\Program Files\\Docker Toolbox;D:\\MongoDB\\server\\bin;.'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8 Server at log.bsw.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8'
+    'SERVER_NAME' => 'log.bsw.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/bsw-log/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/bsw-log/web'
+    'SERVER_ADMIN' => 'log.bsw.cn'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/bsw-log/web/index.php'
+    'REMOTE_PORT' => '14503'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=mber%2Findex'
+    'REQUEST_URI' => '/index.php?r=mber%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499067109.018
+    'REQUEST_TIME' => 1499067109
+]
+2017-07-03 15:32:03 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: mber/index' in D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#1 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('mber/index', Array)
+#2 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\xampp\htdocs\bsw-log\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\bsw-log\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-07-03 15:32:03 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\assets\AppAsset' not found' in D:\xampp\htdocs\bsw-log\views\layouts\main.php:12
+Stack trace:
+#0 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#1 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->renderFile()
+#2 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(372): yii\base\Controller->renderContent()
+#3 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\ErrorAction.php(108): yii\base\Controller->render()
+#4 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Action.php(92): yii\web\ErrorAction->run()
+#5 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Action.php(92): ::call_user_func_array:{D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Action.php:92}()
+#6 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\Action->runWithParams()
+#7 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#8 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\ErrorHandler.php(80): yii\base\Module->runAction()
+#9 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\ErrorHandler.php(101): yii\web\ErrorHandler->renderException()
+#10 {main}
+2017-07-03 15:32:03 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'mber/index'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.2.293394642.1488360647'
+    '_csrf' => 'bf8b07686cbc752e3fbca648b49ee163cc7397635cd2f17256d138e1b3040b38a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"eCbA7OzocTv-xM6l0xfk2MWzUhzUME30\";}'
+    'UM_distinctid' => '15ba3396781af-05c19d1ad004a9-4e47052e-1fa400-15ba33967827f1'
+    'CNZZDATA155540' => 'cnzz_eid=1976120013-1493090567-&ntime=1495096098'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'log.bsw.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://log.bsw.cn/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.2.293394642.1488360647; _csrf=bf8b07686cbc752e3fbca648b49ee163cc7397635cd2f17256d138e1b3040b38a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22eCbA7OzocTv-xM6l0xfk2MWzUhzUME30%22%3B%7D; UM_distinctid=15ba3396781af-05c19d1ad004a9-4e47052e-1fa400-15ba33967827f1; CNZZDATA155540=cnzz_eid%3D1976120013-1493090567-%26ntime%3D1495096098'
+    'PATH' => 'd:\\Ruby23\\bin;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\xampp\\php;D:\\Program Files\\VisualSVN Server\\bin;D:\\xampp\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;D:\\Python27;D:\\Program Files\\nodejs\\;D:\\Program Files (x86)\\nodejs\\;D:\\Go\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Git\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files\\EsafeNet\\Cobra DocGuard Client;C:\\Users\\Administrator.PC-20150311ZSLK\\AppData\\Roaming\\npm;d:\\Program Files\\Docker Toolbox;D:\\MongoDB\\server\\bin;.'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8 Server at log.bsw.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8'
+    'SERVER_NAME' => 'log.bsw.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/bsw-log/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/bsw-log/web'
+    'SERVER_ADMIN' => 'log.bsw.cn'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/bsw-log/web/index.php'
+    'REMOTE_PORT' => '14521'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=mber%2Findex'
+    'REQUEST_URI' => '/index.php?r=mber%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499067123.018
+    'REQUEST_TIME' => 1499067123
+]
+2017-07-03 15:32:09 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: mber/index' in D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#1 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('mber/index', Array)
+#2 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\xampp\htdocs\bsw-log\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\bsw-log\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-07-03 15:32:09 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\assets\AppAsset' not found' in D:\xampp\htdocs\bsw-log\views\layouts\main.php:12
+Stack trace:
+#0 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#1 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->renderFile()
+#2 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(372): yii\base\Controller->renderContent()
+#3 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\ErrorAction.php(108): yii\base\Controller->render()
+#4 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Action.php(92): yii\web\ErrorAction->run()
+#5 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Action.php(92): ::call_user_func_array:{D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Action.php:92}()
+#6 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\Action->runWithParams()
+#7 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#8 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\ErrorHandler.php(80): yii\base\Module->runAction()
+#9 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\ErrorHandler.php(101): yii\web\ErrorHandler->renderException()
+#10 {main}
+2017-07-03 15:32:09 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'mber/index'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.2.293394642.1488360647'
+    '_csrf' => 'bf8b07686cbc752e3fbca648b49ee163cc7397635cd2f17256d138e1b3040b38a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"eCbA7OzocTv-xM6l0xfk2MWzUhzUME30\";}'
+    'UM_distinctid' => '15ba3396781af-05c19d1ad004a9-4e47052e-1fa400-15ba33967827f1'
+    'CNZZDATA155540' => 'cnzz_eid=1976120013-1493090567-&ntime=1495096098'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'log.bsw.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://log.bsw.cn/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.2.293394642.1488360647; _csrf=bf8b07686cbc752e3fbca648b49ee163cc7397635cd2f17256d138e1b3040b38a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22eCbA7OzocTv-xM6l0xfk2MWzUhzUME30%22%3B%7D; UM_distinctid=15ba3396781af-05c19d1ad004a9-4e47052e-1fa400-15ba33967827f1; CNZZDATA155540=cnzz_eid%3D1976120013-1493090567-%26ntime%3D1495096098'
+    'PATH' => 'd:\\Ruby23\\bin;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\xampp\\php;D:\\Program Files\\VisualSVN Server\\bin;D:\\xampp\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;D:\\Python27;D:\\Program Files\\nodejs\\;D:\\Program Files (x86)\\nodejs\\;D:\\Go\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Git\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files\\EsafeNet\\Cobra DocGuard Client;C:\\Users\\Administrator.PC-20150311ZSLK\\AppData\\Roaming\\npm;d:\\Program Files\\Docker Toolbox;D:\\MongoDB\\server\\bin;.'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8 Server at log.bsw.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8'
+    'SERVER_NAME' => 'log.bsw.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/bsw-log/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/bsw-log/web'
+    'SERVER_ADMIN' => 'log.bsw.cn'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/bsw-log/web/index.php'
+    'REMOTE_PORT' => '14523'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=mber%2Findex'
+    'REQUEST_URI' => '/index.php?r=mber%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499067129.168
+    'REQUEST_TIME' => 1499067129
+]
+2017-07-03 15:32:10 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: mber/index' in D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#1 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('mber/index', Array)
+#2 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\xampp\htdocs\bsw-log\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\bsw-log\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-07-03 15:32:10 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\assets\AppAsset' not found' in D:\xampp\htdocs\bsw-log\views\layouts\main.php:12
+Stack trace:
+#0 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#1 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->renderFile()
+#2 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(372): yii\base\Controller->renderContent()
+#3 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\ErrorAction.php(108): yii\base\Controller->render()
+#4 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Action.php(92): yii\web\ErrorAction->run()
+#5 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Action.php(92): ::call_user_func_array:{D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Action.php:92}()
+#6 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\Action->runWithParams()
+#7 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#8 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\ErrorHandler.php(80): yii\base\Module->runAction()
+#9 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\ErrorHandler.php(101): yii\web\ErrorHandler->renderException()
+#10 {main}
+2017-07-03 15:32:09 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'mber/index'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.2.293394642.1488360647'
+    '_csrf' => 'bf8b07686cbc752e3fbca648b49ee163cc7397635cd2f17256d138e1b3040b38a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"eCbA7OzocTv-xM6l0xfk2MWzUhzUME30\";}'
+    'UM_distinctid' => '15ba3396781af-05c19d1ad004a9-4e47052e-1fa400-15ba33967827f1'
+    'CNZZDATA155540' => 'cnzz_eid=1976120013-1493090567-&ntime=1495096098'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'log.bsw.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://log.bsw.cn/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.2.293394642.1488360647; _csrf=bf8b07686cbc752e3fbca648b49ee163cc7397635cd2f17256d138e1b3040b38a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22eCbA7OzocTv-xM6l0xfk2MWzUhzUME30%22%3B%7D; UM_distinctid=15ba3396781af-05c19d1ad004a9-4e47052e-1fa400-15ba33967827f1; CNZZDATA155540=cnzz_eid%3D1976120013-1493090567-%26ntime%3D1495096098'
+    'PATH' => 'd:\\Ruby23\\bin;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\xampp\\php;D:\\Program Files\\VisualSVN Server\\bin;D:\\xampp\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;D:\\Python27;D:\\Program Files\\nodejs\\;D:\\Program Files (x86)\\nodejs\\;D:\\Go\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Git\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files\\EsafeNet\\Cobra DocGuard Client;C:\\Users\\Administrator.PC-20150311ZSLK\\AppData\\Roaming\\npm;d:\\Program Files\\Docker Toolbox;D:\\MongoDB\\server\\bin;.'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8 Server at log.bsw.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8'
+    'SERVER_NAME' => 'log.bsw.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/bsw-log/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/bsw-log/web'
+    'SERVER_ADMIN' => 'log.bsw.cn'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/bsw-log/web/index.php'
+    'REMOTE_PORT' => '14528'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=mber%2Findex'
+    'REQUEST_URI' => '/index.php?r=mber%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499067129.962
+    'REQUEST_TIME' => 1499067129
+]
+2017-07-03 15:32:49 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: mber/index' in D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#1 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('mber/index', Array)
+#2 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\xampp\htdocs\bsw-log\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\bsw-log\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-07-03 15:32:49 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\assets\AppAsset' not found' in D:\xampp\htdocs\bsw-log\views\layouts\main.php:12
+Stack trace:
+#0 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#1 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->renderFile()
+#2 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(372): yii\base\Controller->renderContent()
+#3 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\ErrorAction.php(108): yii\base\Controller->render()
+#4 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Action.php(92): yii\web\ErrorAction->run()
+#5 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Action.php(92): ::call_user_func_array:{D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Action.php:92}()
+#6 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\Action->runWithParams()
+#7 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#8 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\ErrorHandler.php(80): yii\base\Module->runAction()
+#9 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\ErrorHandler.php(101): yii\web\ErrorHandler->renderException()
+#10 {main}
+2017-07-03 15:32:49 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'mber/index'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.2.293394642.1488360647'
+    '_csrf' => 'bf8b07686cbc752e3fbca648b49ee163cc7397635cd2f17256d138e1b3040b38a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"eCbA7OzocTv-xM6l0xfk2MWzUhzUME30\";}'
+    'UM_distinctid' => '15ba3396781af-05c19d1ad004a9-4e47052e-1fa400-15ba33967827f1'
+    'CNZZDATA155540' => 'cnzz_eid=1976120013-1493090567-&ntime=1495096098'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'log.bsw.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://log.bsw.cn/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.2.293394642.1488360647; _csrf=bf8b07686cbc752e3fbca648b49ee163cc7397635cd2f17256d138e1b3040b38a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22eCbA7OzocTv-xM6l0xfk2MWzUhzUME30%22%3B%7D; UM_distinctid=15ba3396781af-05c19d1ad004a9-4e47052e-1fa400-15ba33967827f1; CNZZDATA155540=cnzz_eid%3D1976120013-1493090567-%26ntime%3D1495096098'
+    'PATH' => 'd:\\Ruby23\\bin;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\xampp\\php;D:\\Program Files\\VisualSVN Server\\bin;D:\\xampp\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;D:\\Python27;D:\\Program Files\\nodejs\\;D:\\Program Files (x86)\\nodejs\\;D:\\Go\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Git\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files\\EsafeNet\\Cobra DocGuard Client;C:\\Users\\Administrator.PC-20150311ZSLK\\AppData\\Roaming\\npm;d:\\Program Files\\Docker Toolbox;D:\\MongoDB\\server\\bin;.'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8 Server at log.bsw.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8'
+    'SERVER_NAME' => 'log.bsw.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/bsw-log/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/bsw-log/web'
+    'SERVER_ADMIN' => 'log.bsw.cn'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/bsw-log/web/index.php'
+    'REMOTE_PORT' => '14543'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=mber%2Findex'
+    'REQUEST_URI' => '/index.php?r=mber%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499067169.038
+    'REQUEST_TIME' => 1499067169
+]
+2017-07-03 15:33:01 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: mber/index' in D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#1 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('mber/index', Array)
+#2 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\xampp\htdocs\bsw-log\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\bsw-log\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-07-03 15:33:01 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\assets\AppAsset' not found' in D:\xampp\htdocs\bsw-log\views\layouts\main.php:12
+Stack trace:
+#0 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#1 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->renderFile()
+#2 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(372): yii\base\Controller->renderContent()
+#3 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\ErrorAction.php(108): yii\base\Controller->render()
+#4 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Action.php(92): yii\web\ErrorAction->run()
+#5 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Action.php(92): ::call_user_func_array:{D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Action.php:92}()
+#6 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\Action->runWithParams()
+#7 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#8 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\ErrorHandler.php(80): yii\base\Module->runAction()
+#9 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\ErrorHandler.php(101): yii\web\ErrorHandler->renderException()
+#10 {main}
+2017-07-03 15:33:01 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'mber/index'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.2.293394642.1488360647'
+    '_csrf' => 'bf8b07686cbc752e3fbca648b49ee163cc7397635cd2f17256d138e1b3040b38a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"eCbA7OzocTv-xM6l0xfk2MWzUhzUME30\";}'
+    'UM_distinctid' => '15ba3396781af-05c19d1ad004a9-4e47052e-1fa400-15ba33967827f1'
+    'CNZZDATA155540' => 'cnzz_eid=1976120013-1493090567-&ntime=1495096098'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'log.bsw.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://log.bsw.cn/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.2.293394642.1488360647; _csrf=bf8b07686cbc752e3fbca648b49ee163cc7397635cd2f17256d138e1b3040b38a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22eCbA7OzocTv-xM6l0xfk2MWzUhzUME30%22%3B%7D; UM_distinctid=15ba3396781af-05c19d1ad004a9-4e47052e-1fa400-15ba33967827f1; CNZZDATA155540=cnzz_eid%3D1976120013-1493090567-%26ntime%3D1495096098'
+    'PATH' => 'd:\\Ruby23\\bin;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\xampp\\php;D:\\Program Files\\VisualSVN Server\\bin;D:\\xampp\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;D:\\Python27;D:\\Program Files\\nodejs\\;D:\\Program Files (x86)\\nodejs\\;D:\\Go\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Git\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files\\EsafeNet\\Cobra DocGuard Client;C:\\Users\\Administrator.PC-20150311ZSLK\\AppData\\Roaming\\npm;d:\\Program Files\\Docker Toolbox;D:\\MongoDB\\server\\bin;.'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8 Server at log.bsw.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8'
+    'SERVER_NAME' => 'log.bsw.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/bsw-log/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/bsw-log/web'
+    'SERVER_ADMIN' => 'log.bsw.cn'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/bsw-log/web/index.php'
+    'REMOTE_PORT' => '14551'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=mber%2Findex'
+    'REQUEST_URI' => '/index.php?r=mber%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499067181.636
+    'REQUEST_TIME' => 1499067181
+]
+2017-07-03 15:33:02 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: mber/index' in D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#1 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('mber/index', Array)
+#2 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\xampp\htdocs\bsw-log\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\bsw-log\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-07-03 15:33:02 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\assets\AppAsset' not found' in D:\xampp\htdocs\bsw-log\views\layouts\main.php:12
+Stack trace:
+#0 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#1 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->renderFile()
+#2 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(372): yii\base\Controller->renderContent()
+#3 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\ErrorAction.php(108): yii\base\Controller->render()
+#4 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Action.php(92): yii\web\ErrorAction->run()
+#5 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Action.php(92): ::call_user_func_array:{D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Action.php:92}()
+#6 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\Action->runWithParams()
+#7 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#8 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\ErrorHandler.php(80): yii\base\Module->runAction()
+#9 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\ErrorHandler.php(101): yii\web\ErrorHandler->renderException()
+#10 {main}
+2017-07-03 15:33:02 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'mber/index'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.2.293394642.1488360647'
+    '_csrf' => 'bf8b07686cbc752e3fbca648b49ee163cc7397635cd2f17256d138e1b3040b38a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"eCbA7OzocTv-xM6l0xfk2MWzUhzUME30\";}'
+    'UM_distinctid' => '15ba3396781af-05c19d1ad004a9-4e47052e-1fa400-15ba33967827f1'
+    'CNZZDATA155540' => 'cnzz_eid=1976120013-1493090567-&ntime=1495096098'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'log.bsw.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://log.bsw.cn/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.2.293394642.1488360647; _csrf=bf8b07686cbc752e3fbca648b49ee163cc7397635cd2f17256d138e1b3040b38a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22eCbA7OzocTv-xM6l0xfk2MWzUhzUME30%22%3B%7D; UM_distinctid=15ba3396781af-05c19d1ad004a9-4e47052e-1fa400-15ba33967827f1; CNZZDATA155540=cnzz_eid%3D1976120013-1493090567-%26ntime%3D1495096098'
+    'PATH' => 'd:\\Ruby23\\bin;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\xampp\\php;D:\\Program Files\\VisualSVN Server\\bin;D:\\xampp\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;D:\\Python27;D:\\Program Files\\nodejs\\;D:\\Program Files (x86)\\nodejs\\;D:\\Go\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Git\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files\\EsafeNet\\Cobra DocGuard Client;C:\\Users\\Administrator.PC-20150311ZSLK\\AppData\\Roaming\\npm;d:\\Program Files\\Docker Toolbox;D:\\MongoDB\\server\\bin;.'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8 Server at log.bsw.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8'
+    'SERVER_NAME' => 'log.bsw.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/bsw-log/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/bsw-log/web'
+    'SERVER_ADMIN' => 'log.bsw.cn'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/bsw-log/web/index.php'
+    'REMOTE_PORT' => '14552'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=mber%2Findex'
+    'REQUEST_URI' => '/index.php?r=mber%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499067182.849
+    'REQUEST_TIME' => 1499067182
+]
+2017-07-03 15:33:22 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: mber/index' in D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#1 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('mber/index', Array)
+#2 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\xampp\htdocs\bsw-log\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\bsw-log\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-07-03 15:33:22 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\assets\AppAsset' not found' in D:\xampp\htdocs\bsw-log\views\layouts\main.php:12
+Stack trace:
+#0 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#1 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->renderFile()
+#2 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(372): yii\base\Controller->renderContent()
+#3 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\ErrorAction.php(108): yii\base\Controller->render()
+#4 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Action.php(92): yii\web\ErrorAction->run()
+#5 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Action.php(92): ::call_user_func_array:{D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Action.php:92}()
+#6 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\Action->runWithParams()
+#7 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#8 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\ErrorHandler.php(80): yii\base\Module->runAction()
+#9 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\ErrorHandler.php(101): yii\web\ErrorHandler->renderException()
+#10 {main}
+2017-07-03 15:33:22 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'mber/index'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.2.293394642.1488360647'
+    '_csrf' => 'bf8b07686cbc752e3fbca648b49ee163cc7397635cd2f17256d138e1b3040b38a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"eCbA7OzocTv-xM6l0xfk2MWzUhzUME30\";}'
+    'UM_distinctid' => '15ba3396781af-05c19d1ad004a9-4e47052e-1fa400-15ba33967827f1'
+    'CNZZDATA155540' => 'cnzz_eid=1976120013-1493090567-&ntime=1495096098'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'log.bsw.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://log.bsw.cn/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.2.293394642.1488360647; _csrf=bf8b07686cbc752e3fbca648b49ee163cc7397635cd2f17256d138e1b3040b38a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22eCbA7OzocTv-xM6l0xfk2MWzUhzUME30%22%3B%7D; UM_distinctid=15ba3396781af-05c19d1ad004a9-4e47052e-1fa400-15ba33967827f1; CNZZDATA155540=cnzz_eid%3D1976120013-1493090567-%26ntime%3D1495096098'
+    'PATH' => 'd:\\Ruby23\\bin;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\xampp\\php;D:\\Program Files\\VisualSVN Server\\bin;D:\\xampp\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;D:\\Python27;D:\\Program Files\\nodejs\\;D:\\Program Files (x86)\\nodejs\\;D:\\Go\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Git\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files\\EsafeNet\\Cobra DocGuard Client;C:\\Users\\Administrator.PC-20150311ZSLK\\AppData\\Roaming\\npm;d:\\Program Files\\Docker Toolbox;D:\\MongoDB\\server\\bin;.'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8 Server at log.bsw.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8'
+    'SERVER_NAME' => 'log.bsw.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/bsw-log/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/bsw-log/web'
+    'SERVER_ADMIN' => 'log.bsw.cn'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/bsw-log/web/index.php'
+    'REMOTE_PORT' => '14558'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=mber%2Findex'
+    'REQUEST_URI' => '/index.php?r=mber%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499067202.712
+    'REQUEST_TIME' => 1499067202
+]
+2017-07-03 15:33:23 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: mber/index' in D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#1 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('mber/index', Array)
+#2 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\xampp\htdocs\bsw-log\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\bsw-log\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-07-03 15:33:23 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\assets\AppAsset' not found' in D:\xampp\htdocs\bsw-log\views\layouts\main.php:12
+Stack trace:
+#0 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#1 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->renderFile()
+#2 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(372): yii\base\Controller->renderContent()
+#3 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\ErrorAction.php(108): yii\base\Controller->render()
+#4 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Action.php(92): yii\web\ErrorAction->run()
+#5 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Action.php(92): ::call_user_func_array:{D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Action.php:92}()
+#6 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\Action->runWithParams()
+#7 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#8 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\ErrorHandler.php(80): yii\base\Module->runAction()
+#9 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\ErrorHandler.php(101): yii\web\ErrorHandler->renderException()
+#10 {main}
+2017-07-03 15:33:23 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'mber/index'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.2.293394642.1488360647'
+    '_csrf' => 'bf8b07686cbc752e3fbca648b49ee163cc7397635cd2f17256d138e1b3040b38a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"eCbA7OzocTv-xM6l0xfk2MWzUhzUME30\";}'
+    'UM_distinctid' => '15ba3396781af-05c19d1ad004a9-4e47052e-1fa400-15ba33967827f1'
+    'CNZZDATA155540' => 'cnzz_eid=1976120013-1493090567-&ntime=1495096098'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'log.bsw.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://log.bsw.cn/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.2.293394642.1488360647; _csrf=bf8b07686cbc752e3fbca648b49ee163cc7397635cd2f17256d138e1b3040b38a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22eCbA7OzocTv-xM6l0xfk2MWzUhzUME30%22%3B%7D; UM_distinctid=15ba3396781af-05c19d1ad004a9-4e47052e-1fa400-15ba33967827f1; CNZZDATA155540=cnzz_eid%3D1976120013-1493090567-%26ntime%3D1495096098'
+    'PATH' => 'd:\\Ruby23\\bin;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\xampp\\php;D:\\Program Files\\VisualSVN Server\\bin;D:\\xampp\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;D:\\Python27;D:\\Program Files\\nodejs\\;D:\\Program Files (x86)\\nodejs\\;D:\\Go\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Git\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files\\EsafeNet\\Cobra DocGuard Client;C:\\Users\\Administrator.PC-20150311ZSLK\\AppData\\Roaming\\npm;d:\\Program Files\\Docker Toolbox;D:\\MongoDB\\server\\bin;.'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8 Server at log.bsw.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8'
+    'SERVER_NAME' => 'log.bsw.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/bsw-log/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/bsw-log/web'
+    'SERVER_ADMIN' => 'log.bsw.cn'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/bsw-log/web/index.php'
+    'REMOTE_PORT' => '14559'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=mber%2Findex'
+    'REQUEST_URI' => '/index.php?r=mber%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499067203.451
+    'REQUEST_TIME' => 1499067203
+]
+2017-07-03 15:33:59 [127.0.0.1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: D:\xampp\htdocs\bsw-log\views\mber\index.php' in D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\View.php:226
+Stack trace:
+#0 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(app\controllers\MberController))
+#1 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(371): yii\base\View->render('index', Array, Object(app\controllers\MberController))
+#2 D:\xampp\htdocs\bsw-log\controllers\MberController.php(10): yii\base\Controller->render('index', Array)
+#3 [internal function]: app\controllers\MberController->actionIndex()
+#4 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#7 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('mber/index', Array)
+#8 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\xampp\htdocs\bsw-log\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2017-07-03 15:33:59 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'mber/index'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.2.293394642.1488360647'
+    '_csrf' => 'bf8b07686cbc752e3fbca648b49ee163cc7397635cd2f17256d138e1b3040b38a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"eCbA7OzocTv-xM6l0xfk2MWzUhzUME30\";}'
+    'UM_distinctid' => '15ba3396781af-05c19d1ad004a9-4e47052e-1fa400-15ba33967827f1'
+    'CNZZDATA155540' => 'cnzz_eid=1976120013-1493090567-&ntime=1495096098'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'log.bsw.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://log.bsw.cn/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.2.293394642.1488360647; _csrf=bf8b07686cbc752e3fbca648b49ee163cc7397635cd2f17256d138e1b3040b38a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22eCbA7OzocTv-xM6l0xfk2MWzUhzUME30%22%3B%7D; UM_distinctid=15ba3396781af-05c19d1ad004a9-4e47052e-1fa400-15ba33967827f1; CNZZDATA155540=cnzz_eid%3D1976120013-1493090567-%26ntime%3D1495096098'
+    'PATH' => 'd:\\Ruby23\\bin;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\xampp\\php;D:\\Program Files\\VisualSVN Server\\bin;D:\\xampp\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;D:\\Python27;D:\\Program Files\\nodejs\\;D:\\Program Files (x86)\\nodejs\\;D:\\Go\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Git\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files\\EsafeNet\\Cobra DocGuard Client;C:\\Users\\Administrator.PC-20150311ZSLK\\AppData\\Roaming\\npm;d:\\Program Files\\Docker Toolbox;D:\\MongoDB\\server\\bin;.'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8 Server at log.bsw.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8'
+    'SERVER_NAME' => 'log.bsw.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/bsw-log/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/bsw-log/web'
+    'SERVER_ADMIN' => 'log.bsw.cn'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/bsw-log/web/index.php'
+    'REMOTE_PORT' => '14581'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=mber%2Findex'
+    'REQUEST_URI' => '/index.php?r=mber%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499067239.337
+    'REQUEST_TIME' => 1499067239
+]
+2017-07-03 15:34:08 [127.0.0.1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: D:\xampp\htdocs\bsw-log\views\mber\index.php' in D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\View.php:226
+Stack trace:
+#0 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(app\controllers\MberController))
+#1 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(371): yii\base\View->render('index', Array, Object(app\controllers\MberController))
+#2 D:\xampp\htdocs\bsw-log\controllers\MberController.php(10): yii\base\Controller->render('index', Array)
+#3 [internal function]: app\controllers\MberController->actionIndex()
+#4 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#7 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('mber/index', Array)
+#8 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\xampp\htdocs\bsw-log\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2017-07-03 15:34:07 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'mber/index'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.2.293394642.1488360647'
+    '_csrf' => 'bf8b07686cbc752e3fbca648b49ee163cc7397635cd2f17256d138e1b3040b38a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"eCbA7OzocTv-xM6l0xfk2MWzUhzUME30\";}'
+    'UM_distinctid' => '15ba3396781af-05c19d1ad004a9-4e47052e-1fa400-15ba33967827f1'
+    'CNZZDATA155540' => 'cnzz_eid=1976120013-1493090567-&ntime=1495096098'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'log.bsw.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://log.bsw.cn/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.2.293394642.1488360647; _csrf=bf8b07686cbc752e3fbca648b49ee163cc7397635cd2f17256d138e1b3040b38a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22eCbA7OzocTv-xM6l0xfk2MWzUhzUME30%22%3B%7D; UM_distinctid=15ba3396781af-05c19d1ad004a9-4e47052e-1fa400-15ba33967827f1; CNZZDATA155540=cnzz_eid%3D1976120013-1493090567-%26ntime%3D1495096098'
+    'PATH' => 'd:\\Ruby23\\bin;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\xampp\\php;D:\\Program Files\\VisualSVN Server\\bin;D:\\xampp\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;D:\\Python27;D:\\Program Files\\nodejs\\;D:\\Program Files (x86)\\nodejs\\;D:\\Go\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Git\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files\\EsafeNet\\Cobra DocGuard Client;C:\\Users\\Administrator.PC-20150311ZSLK\\AppData\\Roaming\\npm;d:\\Program Files\\Docker Toolbox;D:\\MongoDB\\server\\bin;.'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8 Server at log.bsw.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8'
+    'SERVER_NAME' => 'log.bsw.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/bsw-log/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/bsw-log/web'
+    'SERVER_ADMIN' => 'log.bsw.cn'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/bsw-log/web/index.php'
+    'REMOTE_PORT' => '14590'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=mber%2Findex'
+    'REQUEST_URI' => '/index.php?r=mber%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499067247.978
+    'REQUEST_TIME' => 1499067247
+]
+2017-07-03 17:50:30 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "news/index".' in D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('news/index', Array)
+#1 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\bsw-log\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\bsw-log\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-07-03 17:50:30 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\assets\AppAsset' not found' in D:\xampp\htdocs\bsw-log\views\layouts\main.php:12
+Stack trace:
+#0 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#1 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->renderFile()
+#2 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(372): yii\base\Controller->renderContent()
+#3 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\ErrorAction.php(108): yii\base\Controller->render()
+#4 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Action.php(92): yii\web\ErrorAction->run()
+#5 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Action.php(92): ::call_user_func_array:{D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Action.php:92}()
+#6 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\Action->runWithParams()
+#7 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#8 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\ErrorHandler.php(80): yii\base\Module->runAction()
+#9 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\ErrorHandler.php(101): yii\web\ErrorHandler->renderException()
+#10 {main}
+2017-07-03 17:50:30 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'news/index'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.2.293394642.1488360647'
+    '_csrf' => 'bf8b07686cbc752e3fbca648b49ee163cc7397635cd2f17256d138e1b3040b38a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"eCbA7OzocTv-xM6l0xfk2MWzUhzUME30\";}'
+    'UM_distinctid' => '15ba3396781af-05c19d1ad004a9-4e47052e-1fa400-15ba33967827f1'
+    'CNZZDATA155540' => 'cnzz_eid=1976120013-1493090567-&ntime=1495096098'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'log.bsw.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://log.bsw.cn/index.php?r=mber%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.2.293394642.1488360647; _csrf=bf8b07686cbc752e3fbca648b49ee163cc7397635cd2f17256d138e1b3040b38a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22eCbA7OzocTv-xM6l0xfk2MWzUhzUME30%22%3B%7D; UM_distinctid=15ba3396781af-05c19d1ad004a9-4e47052e-1fa400-15ba33967827f1; CNZZDATA155540=cnzz_eid%3D1976120013-1493090567-%26ntime%3D1495096098'
+    'PATH' => 'd:\\Ruby23\\bin;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\xampp\\php;D:\\Program Files\\VisualSVN Server\\bin;D:\\xampp\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;D:\\Python27;D:\\Program Files\\nodejs\\;D:\\Program Files (x86)\\nodejs\\;D:\\Go\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Git\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files\\EsafeNet\\Cobra DocGuard Client;C:\\Users\\Administrator.PC-20150311ZSLK\\AppData\\Roaming\\npm;d:\\Program Files\\Docker Toolbox;D:\\MongoDB\\server\\bin;.'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8 Server at log.bsw.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8'
+    'SERVER_NAME' => 'log.bsw.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/bsw-log/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/bsw-log/web'
+    'SERVER_ADMIN' => 'log.bsw.cn'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/bsw-log/web/index.php'
+    'REMOTE_PORT' => '23770'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=news%2Findex'
+    'REQUEST_URI' => '/index.php?r=news%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499075430.027
+    'REQUEST_TIME' => 1499075430
+]
+2017-07-04 16:23:26 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'class' (T_CLASS), expecting ',' or ';'' in D:\xampp\htdocs\bsw-log\models\Mber.php:6
+Stack trace:
+#0 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\InlineAction.php(13): ::spl_autoload_call()
+#1 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\InlineAction.php(55): app\controllers\MberController->actionIndex()
+#2 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#3 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#4 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#5 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#6 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#7 D:\xampp\htdocs\bsw-log\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2017-07-04 16:23:25 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'mber/index'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.2.293394642.1488360647'
+    '_csrf' => 'bf8b07686cbc752e3fbca648b49ee163cc7397635cd2f17256d138e1b3040b38a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"eCbA7OzocTv-xM6l0xfk2MWzUhzUME30\";}'
+    'UM_distinctid' => '15ba3396781af-05c19d1ad004a9-4e47052e-1fa400-15ba33967827f1'
+    'CNZZDATA155540' => 'cnzz_eid=1976120013-1493090567-&ntime=1495096098'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'log.bsw.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.2.293394642.1488360647; _csrf=bf8b07686cbc752e3fbca648b49ee163cc7397635cd2f17256d138e1b3040b38a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22eCbA7OzocTv-xM6l0xfk2MWzUhzUME30%22%3B%7D; UM_distinctid=15ba3396781af-05c19d1ad004a9-4e47052e-1fa400-15ba33967827f1; CNZZDATA155540=cnzz_eid%3D1976120013-1493090567-%26ntime%3D1495096098'
+    'PATH' => 'd:\\Ruby23\\bin;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\xampp\\php;D:\\Program Files\\VisualSVN Server\\bin;D:\\xampp\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;D:\\Python27;D:\\Program Files\\nodejs\\;D:\\Program Files (x86)\\nodejs\\;D:\\Go\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Git\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files\\EsafeNet\\Cobra DocGuard Client;C:\\Users\\Administrator.PC-20150311ZSLK\\AppData\\Roaming\\npm;d:\\Program Files\\Docker Toolbox;D:\\MongoDB\\server\\bin;.'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8 Server at log.bsw.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8'
+    'SERVER_NAME' => 'log.bsw.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/bsw-log/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/bsw-log/web'
+    'SERVER_ADMIN' => 'log.bsw.cn'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/bsw-log/web/index.php'
+    'REMOTE_PORT' => '26355'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=mber%2Findex'
+    'REQUEST_URI' => '/index.php?r=mber%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499156605.662
+    'REQUEST_TIME' => 1499156605
+]
+2017-07-04 16:30:47 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function count() on array' in D:\xampp\htdocs\bsw-log\controllers\MberController.php:14
+Stack trace:
+#0 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#1 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#2 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#3 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#4 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#5 D:\xampp\htdocs\bsw-log\web\index.php(12): yii\base\Application->run()
+#6 {main}
+2017-07-04 16:30:47 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'mber/index'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.2.293394642.1488360647'
+    '_csrf' => 'bf8b07686cbc752e3fbca648b49ee163cc7397635cd2f17256d138e1b3040b38a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"eCbA7OzocTv-xM6l0xfk2MWzUhzUME30\";}'
+    'UM_distinctid' => '15ba3396781af-05c19d1ad004a9-4e47052e-1fa400-15ba33967827f1'
+    'CNZZDATA155540' => 'cnzz_eid=1976120013-1493090567-&ntime=1495096098'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'log.bsw.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.2.293394642.1488360647; _csrf=bf8b07686cbc752e3fbca648b49ee163cc7397635cd2f17256d138e1b3040b38a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22eCbA7OzocTv-xM6l0xfk2MWzUhzUME30%22%3B%7D; UM_distinctid=15ba3396781af-05c19d1ad004a9-4e47052e-1fa400-15ba33967827f1; CNZZDATA155540=cnzz_eid%3D1976120013-1493090567-%26ntime%3D1495096098'
+    'PATH' => 'd:\\Ruby23\\bin;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\xampp\\php;D:\\Program Files\\VisualSVN Server\\bin;D:\\xampp\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;D:\\Python27;D:\\Program Files\\nodejs\\;D:\\Program Files (x86)\\nodejs\\;D:\\Go\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Git\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files\\EsafeNet\\Cobra DocGuard Client;C:\\Users\\Administrator.PC-20150311ZSLK\\AppData\\Roaming\\npm;d:\\Program Files\\Docker Toolbox;D:\\MongoDB\\server\\bin;.'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8 Server at log.bsw.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8'
+    'SERVER_NAME' => 'log.bsw.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/bsw-log/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/bsw-log/web'
+    'SERVER_ADMIN' => 'log.bsw.cn'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/bsw-log/web/index.php'
+    'REMOTE_PORT' => '31392'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=mber%2Findex'
+    'REQUEST_URI' => '/index.php?r=mber%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499157047.764
+    'REQUEST_TIME' => 1499157047
+]
+2017-07-04 16:42:47 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ':', expecting ';'' in D:\xampp\htdocs\bsw-log\views\mber\index.php:105
+Stack trace:
+#0 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile()
+#1 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(371): yii\base\View->render()
+#2 D:\xampp\htdocs\bsw-log\controllers\MberController.php(19): yii\base\Controller->render()
+#3 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\InlineAction.php(55): app\controllers\MberController->actionIndex()
+#4 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#5 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#6 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#7 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#8 D:\xampp\htdocs\bsw-log\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#9 D:\xampp\htdocs\bsw-log\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2017-07-04 16:42:47 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'mber/index'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.2.293394642.1488360647'
+    '_csrf' => 'bf8b07686cbc752e3fbca648b49ee163cc7397635cd2f17256d138e1b3040b38a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"eCbA7OzocTv-xM6l0xfk2MWzUhzUME30\";}'
+    'UM_distinctid' => '15ba3396781af-05c19d1ad004a9-4e47052e-1fa400-15ba33967827f1'
+    'CNZZDATA155540' => 'cnzz_eid=1976120013-1493090567-&ntime=1495096098'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'log.bsw.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.2.293394642.1488360647; _csrf=bf8b07686cbc752e3fbca648b49ee163cc7397635cd2f17256d138e1b3040b38a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22eCbA7OzocTv-xM6l0xfk2MWzUhzUME30%22%3B%7D; UM_distinctid=15ba3396781af-05c19d1ad004a9-4e47052e-1fa400-15ba33967827f1; CNZZDATA155540=cnzz_eid%3D1976120013-1493090567-%26ntime%3D1495096098'
+    'PATH' => 'd:\\Ruby23\\bin;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\xampp\\php;D:\\Program Files\\VisualSVN Server\\bin;D:\\xampp\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;D:\\Python27;D:\\Program Files\\nodejs\\;D:\\Program Files (x86)\\nodejs\\;D:\\Go\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Git\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files\\EsafeNet\\Cobra DocGuard Client;C:\\Users\\Administrator.PC-20150311ZSLK\\AppData\\Roaming\\npm;d:\\Program Files\\Docker Toolbox;D:\\MongoDB\\server\\bin;.'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8 Server at log.bsw.cn Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8'
+    'SERVER_NAME' => 'log.bsw.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/bsw-log/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/bsw-log/web'
+    'SERVER_ADMIN' => 'log.bsw.cn'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/bsw-log/web/index.php'
+    'REMOTE_PORT' => '39607'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=mber%2Findex'
+    'REQUEST_URI' => '/index.php?r=mber%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499157767.717
+    'REQUEST_TIME' => 1499157767
+]
